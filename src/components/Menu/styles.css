@@ -1,0 +1,82 @@
+.Logo {
+    height: 46px;
+}
+
+
+
+.Menu {
+    width: 100%;
+    height: 94px;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    background: var(--black);
+    border-bottom: 2px solid var(--primary);
+}
+
+body {
+    --bodyPaddingTop: 94px;
+    padding-top: var(--bodyPaddingTop);
+}
+
+/* .ButtonLink {
+    color: var(--white);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px 24px;
+    font-style: normal;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    opacity: .5;
+    transition: opacity .5s;
+} */
+
+.ButtonLink:hover, .ButtonLink:focus {
+    opacity: .9;
+}
+
+@media (max-width: 800px) {
+    .Logo {
+        max-width: 105px;
+        max-height: 30px;
+    }
+
+    .Menu {
+        height: 40px;
+        display: flex;
+        justify-content: center;
+      }
+
+    body {
+        --bodyPaddingTop: 40px;
+        padding-top: var(--bodyPaddingTop);
+    }
+
+    a.ButtonLink {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--primary);
+        border: 0;
+        text-align: center;
+        opacity: 1;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
