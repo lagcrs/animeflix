@@ -1,0 +1,274 @@
+{
+    "categorias": [
+        {
+            "titulo": "Shounen",
+            "link": "https://myanimelist.net/anime/genre/27/Shounen",
+            "cor": "#6BD1FF",
+            "videos": [
+                {
+                    "titulo": "Naruto",
+                    "url": "https://youtu.be/j2hiC9BmJlQ"
+                },
+                {
+                    "titulo": "One Piece",
+                    "url": "https://youtu.be/um-tFlVamOI"
+                },
+                {
+                    "titulo": "Hunter X Hunter",
+                    "url": "https://youtu.be/nboMpI9vOhI"
+                },
+                {
+                    "titulo": "Fullmetal Alchemist: Brotherhood",
+                    "url": "https://youtu.be/--IcmZkvL0Q"
+                },
+                {
+                    "titulo": "Bleach",
+                    "url": "https://youtu.be/0yk5H6vvfG4"
+                }
+            ]
+        },
+        {
+            "titulo": "Seinen",
+            "link": "https://myanimelist.net/anime/genre/42/Seinen",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Monster",
+                    "url": "https://youtu.be/9aS-EgdAq6U"
+                },
+                {
+                    "titulo": "Tokyo Ghoul",
+                    "url": "https://youtu.be/vGuQeQsoRgU"
+                },
+                {
+                    "titulo": "Ghost In The Shell",
+                    "url": "https://youtu.be/OfWbdoRFgxM"
+                },
+                {
+                    "titulo": "Berserk",
+                    "url": "https://youtu.be/XQr7LvFZrlE"
+                },
+                {
+                    "titulo": "Mushishi",
+                    "url": "https://youtu.be/StCN_4qWfWE"
+                }
+            ]
+        },
+        {
+            "titulo": "Shoujo",
+            "link": "https://myanimelist.net/anime/genre/25/Shoujo",
+            "cor": "#9cd33b",
+            "videos": [
+                {
+                    "titulo": "Kaichou wa Maid-sama",
+                    "url": "https://youtu.be/jW7quAVPKOg"
+                },
+                {
+                    "titulo": "Ouran Koukou Host Club",
+                    "url": "https://youtu.be/NcC5VCE2Its"
+                },
+                {
+                    "titulo": "Kimi ni Todoke",
+                    "url": "https://youtu.be/_gJR6gfRYEQ"
+                },
+                {
+                    "titulo": "Vampire Knight",
+                    "url": "https://youtu.be/d9QDCOJS78w"
+                },
+                {
+                    "titulo": "Fruits Basket",
+                    "url": "https://youtu.be/g5MDFMukmUI"
+                }
+            ]
+        },
+        {
+            "titulo": "Slice of Life",
+            "link": "https://myanimelist.net/anime/genre/36/Slice_of_Life",
+            "cor": "#9cd33b",
+            "videos": [
+                {
+                    "titulo": "Toradora",
+                    "url": "https://youtu.be/ya570uUgQNc"
+                },
+                {
+                    "titulo": "Clannad",
+                    "url": "https://youtu.be/pTTsmwHxHns"
+                },
+                {
+                    "titulo": "Hyouka",
+                    "url": "https://youtu.be/N5nNKAVB4O4"
+                },
+                {
+                    "titulo": "Chuunibyou demo Koi ga Shitai!",
+                    "url": "https://youtu.be/USgrD2Dqsa0"
+                },
+                {
+                    "titulo": "Sakura-sou no Pet na Kanojo",
+                    "url": "https://youtu.be/HPTtuR1EF_U"
+                }
+            ]
+        },
+        {
+            "titulo": "Mecha",
+            "link": "https://myanimelist.net/anime/genre/18/Mecha",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Code Geass: Hangyaku no Lelouch",
+                    "url": "https://youtu.be/DR1d_Pm729o"
+                },
+                {
+                    "titulo": "Neon Genesis Evangelion",
+                    "url": "https://youtu.be/woto6QFUNbg"
+                },
+                {
+                    "titulo": "Tengen Toppa Gurren Lagann",
+                    "url": "https://youtu.be/rAQylCHv8Cw"
+                },
+                {
+                    "titulo": "Guilty Crown",
+                    "url": "https://youtu.be/JToS6gmWzgw"
+                },
+                {
+                    "titulo": "Aldnoah.Zero",
+                    "url": "https://youtu.be/D6XOSJyJtk8"
+                }
+            ]
+        },
+        {
+            "titulo": "Esporte",
+            "link": "https://myanimelist.net/anime/genre/30/Sports",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Haikyuu!!",
+                    "url": "https://youtu.be/JOGp2c7-cKc"
+                },
+                {
+                    "titulo": "Kuroko no Basket",
+                    "url": "https://youtu.be/FTUIs_SuQfw"
+                },
+                {
+                    "titulo": "Free!",
+                    "url": "https://youtu.be/tZhI2_rN74o"
+                },
+                {
+                    "titulo": "Hajime no Ippo",
+                    "url": "https://youtu.be/7xM3XTJUhPk"
+                },
+                {
+                    "titulo": "Yowamushi Pedal",
+                    "url": "https://youtu.be/tzkiTvJWKtg"
+                }
+            ]
+        },
+        {
+            "titulo": "Musical",
+            "link": "https://myanimelist.net/anime/genre/19/Music",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Shigatsu wa Kimi no Uso",
+                    "url": "https://youtu.be/aMJpI_fEsA4"
+                },
+                {
+                    "titulo": "K-On!",
+                    "url": "https://youtu.be/4j9BCuKafmQ"
+                },
+                {
+                    "titulo": "Nodame Cantabile",
+                    "url": "https://youtu.be/_uiAXKql0Nw"
+                },
+                {
+                    "titulo": "Sakamichi no Apollon",
+                    "url": "https://youtu.be/fpJSOUCSWGI"
+                },
+                {
+                    "titulo": "Detroit Metal City",
+                    "url": "https://youtu.be/4I76lDIPotQ"
+                }
+            ]
+        },
+        {
+            "titulo": "Psicológico",
+            "link": "https://myanimelist.net/anime/genre/40/Psychological",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Death Note",
+                    "url": "https://youtu.be/Vt_3c8BgxV4"
+                },
+                {
+                    "titulo": "Mirai Nikki",
+                    "url": "https://youtu.be/cOmW9c43QkA"
+                },
+                {
+                    "titulo": "Re:Zero kara Hajimeru Isekai Seikatsu",
+                    "url": "https://youtu.be/vFfXjuVA1Jk"
+                },
+                {
+                    "titulo": "Boku dake ga Inai Machi",
+                    "url": "https://youtu.be/DwmxEAWjTQQ"
+                },
+                {
+                    "titulo": "Elfen Lied",
+                    "url": "https://youtu.be/IItTqRrRkqI"
+                }
+            ]
+        },
+        {
+            "titulo": "Yaoi",
+            "link": "https://myanimelist.net/anime/genre/28/Shounen_Ai",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Junjou Romantica",
+                    "url": "https://youtu.be/ns0u2nz7v0A"
+                },
+                {
+                    "titulo": "Love Stage!!",
+                    "url": "https://youtu.be/RrFOU4FYWkM"
+                },
+                {
+                    "titulo": "Sekaiichi Hatsukoi",
+                    "url": "https://youtu.be/qp5QuQqye3Q"
+                },
+                {
+                    "titulo": "Given",
+                    "url": "https://youtu.be/Dwv4MiB08TY"
+                },
+                {
+                    "titulo": "Hitorijime My Hero",
+                    "url": "https://youtu.be/925gdwq9Jzo"
+                }
+            ]
+        },
+        {
+            "titulo": "Yuri",
+            "link": "https://myanimelist.net/anime/genre/26/Shoujo_Ai",
+            "cor": "#00C86F",
+            "videos": [
+                {
+                    "titulo": "Citrus",
+                    "url": "https://youtu.be/33WrHNSoxdY"
+                },
+                {
+                    "titulo": "Maria†Holic",
+                    "url": "https://youtu.be/CLhyx2300Ec"
+                },
+                {
+                    "titulo": "Sakura Trick",
+                    "url": "https://youtu.be/cGeDE_RR6eo"
+                },
+                {
+                    "titulo": "Yagate Kimi ni Naru",
+                    "url": "https://youtu.be/9Tua7jvQgUs"
+                },
+                {
+                    "titulo": "Strawberry Panic",
+                    "url": "https://youtu.be/XN_wGU4cCEo"
+                }
+            ]
+        }
+    ]
+}
