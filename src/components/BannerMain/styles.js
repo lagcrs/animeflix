@@ -51,11 +51,12 @@ ContentAreaContainer.Description = styled.p`
   }
 `;
 
-ContentAreaContainer.Title = styled.h2`
+ContentAreaContainer.Title = styled.h1`
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 65px;
   line-height: 1;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 32px;
   @media (max-width: 800px) {

@@ -3,6 +3,7 @@
         {
             "titulo": "Shounen",
             "link": "https://myanimelist.net/anime/genre/27/Shounen",
+            "text": "TOP 5 Animes Shounen",
             "cor": "#6BD1FF",
             "videos": [
                 {
@@ -30,7 +31,8 @@
         {
             "titulo": "Seinen",
             "link": "https://myanimelist.net/anime/genre/42/Seinen",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Seinen",
+            "cor": "#F46036",
             "videos": [
                 {
                     "titulo": "Monster",
@@ -38,7 +40,7 @@
                 },
                 {
                     "titulo": "Tokyo Ghoul",
-                    "url": "https://youtu.be/vGuQeQsoRgU"
+                    "url": "https://youtu.be/ETHpMMV8rJU"
                 },
                 {
                     "titulo": "Ghost In The Shell",
@@ -57,7 +59,8 @@
         {
             "titulo": "Shoujo",
             "link": "https://myanimelist.net/anime/genre/25/Shoujo",
-            "cor": "#9cd33b",
+            "text": "TOP 5 Animes Shoujo",
+            "cor": "#97DB4F",
             "videos": [
                 {
                     "titulo": "Kaichou wa Maid-sama",
@@ -84,7 +87,8 @@
         {
             "titulo": "Slice of Life",
             "link": "https://myanimelist.net/anime/genre/36/Slice_of_Life",
-            "cor": "#9cd33b",
+            "text": "TOP 5 Animes Slice of Life",
+            "cor": "#F15156",
             "videos": [
                 {
                     "titulo": "Toradora",
@@ -111,7 +115,8 @@
         {
             "titulo": "Mecha",
             "link": "https://myanimelist.net/anime/genre/18/Mecha",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Mecha",
+            "cor": "#2DD881",
             "videos": [
                 {
                     "titulo": "Code Geass: Hangyaku no Lelouch",
@@ -138,7 +143,8 @@
         {
             "titulo": "Esporte",
             "link": "https://myanimelist.net/anime/genre/30/Sports",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Esporte",
+            "cor": "#3CDBD3",
             "videos": [
                 {
                     "titulo": "Haikyuu!!",
@@ -165,7 +171,8 @@
         {
             "titulo": "Musical",
             "link": "https://myanimelist.net/anime/genre/19/Music",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Musicais",
+            "cor": "#FFC759",
             "videos": [
                 {
                     "titulo": "Shigatsu wa Kimi no Uso",
@@ -192,7 +199,8 @@
         {
             "titulo": "Psicológico",
             "link": "https://myanimelist.net/anime/genre/40/Psychological",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Psicológicos",
+            "cor": "#30343F",
             "videos": [
                 {
                     "titulo": "Death Note",
@@ -204,7 +212,7 @@
                 },
                 {
                     "titulo": "Re:Zero kara Hajimeru Isekai Seikatsu",
-                    "url": "https://youtu.be/vFfXjuVA1Jk"
+                    "url": "https://youtu.be/Slz_rahWp6Y"
                 },
                 {
                     "titulo": "Boku dake ga Inai Machi",
@@ -219,7 +227,8 @@
         {
             "titulo": "Yaoi",
             "link": "https://myanimelist.net/anime/genre/28/Shounen_Ai",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Yaoi",
+            "cor": "#4059AD",
             "videos": [
                 {
                     "titulo": "Junjou Romantica",
@@ -246,7 +255,8 @@
         {
             "titulo": "Yuri",
             "link": "https://myanimelist.net/anime/genre/26/Shoujo_Ai",
-            "cor": "#00C86F",
+            "text": "TOP 5 Animes Yuri",
+            "cor": "#F75590",
             "videos": [
                 {
                     "titulo": "Citrus",

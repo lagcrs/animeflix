@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink, VideoCardTitle } from './styles';
 import VideoCard from './components/VideoCard';
 
 function VideoCardGroup({
@@ -7,8 +7,9 @@ function VideoCardGroup({
   category,
 }) {
   const categoryTitle = category.titulo;
+  const categoryText = category.text;
   const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
+  const categoryLink = category.link;
   const videos = category.videos;
   return (
     <VideoCardGroupContainer>
@@ -17,9 +18,9 @@ function VideoCardGroup({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
+          {categoryLink && 
+            <ExtraLink href={categoryLink} target="_blank">
+              {categoryText}  
             </ExtraLink>
           }
         </>
@@ -37,6 +38,7 @@ function VideoCardGroup({
                 videoURL={video.url}
                 categoryColor={categoryColor}
               />
+			  <VideoCardTitle>{video.titulo}</VideoCardTitle>
             </li>
           );
         })}
