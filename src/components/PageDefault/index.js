@@ -10,6 +10,8 @@ const Main =  styled.main`
     padding-top: 50px;
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 150px;
+    text-align: center;
 `;
 
 export default function PageDafault({ children }) {
