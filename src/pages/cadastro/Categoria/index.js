@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import FormField from '../../../components/FormField';
 
 const Categoria = styled.span`
     color: var(--primary);
@@ -42,33 +43,40 @@ export default function CadastroCategoria() {
             </h1>
 
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label>
-                        Nome da Categoria:
-                        <input 
-                            type="text" 
-                            name="nome"
-                            value={valores.nome} 
-                            onChange={handleChange}/>
-                    </label>
-              
-                    <label>
-                        Descrição da Categoria:
-                        <textarea 
-                            type="text" 
-                            name="descricao"
-                            value={valores.descricao} 
-                            onChange={handleChange}/>
-                    </label>
 
-                    <label>
-                        Cor da Categoria:
-                        <input 
-                            type="color"
-                            name="cor" 
-                            value={valores.cor} 
-                            onChange={handleChange}/>
-                    </label>
+                <FormField
+                    label="Nome da Categoria"
+                    type="text" 
+                    nome="Nome"
+                    valor={valores.nome}
+                    onChange={handleChange}
+                />
+
+                <label>
+                    Descrição:
+                    <textarea 
+                        type="text" 
+                        name="descricao"
+                        value={valores.descricao} 
+                        onChange={handleChange}/>
+                </label>
+
+                {/* <FormField
+                    type="textarea" 
+                    nome="Descrição"
+                    valor={valores.descricao}
+                    onChange={handleChange}
+                /> */}
+
+                <FormField
+                    label="Cor"
+                    type="color"
+                    nome="Cor" 
+                    valor={valores.cor}
+                    onChange={handleChange}
+                />
+
+                <div>
                 </div>
                 <button>Cadastrar</button>
             </form>
