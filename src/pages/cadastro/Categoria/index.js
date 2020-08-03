@@ -3,6 +3,7 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 const Categoria = styled.span`
     color: var(--primary);
@@ -52,21 +53,22 @@ export default function CadastroCategoria() {
                     onChange={handleChange}
                 />
 
-                <label>
+                {/* <label>
                     Descrição:
                     <textarea 
                         type="text" 
                         name="descricao"
                         value={valores.descricao} 
                         onChange={handleChange}/>
-                </label>
+                </label> */}
 
-                {/* <FormField
+                <FormField
+                    label="Descrição"
                     type="textarea" 
                     nome="Descrição"
                     valor={valores.descricao}
                     onChange={handleChange}
-                /> */}
+                />
 
                 <FormField
                     label="Cor"
@@ -78,7 +80,7 @@ export default function CadastroCategoria() {
 
                 <div>
                 </div>
-                <button>Cadastrar</button>
+                <Button>Cadastrar</Button>
             </form>
 
             <ul>
