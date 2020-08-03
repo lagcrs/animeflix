@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Shounen",
+            "descricao": "TOP 5 Animes Shounen",
+            "cor": "#6BD1FF"
+        }
+    ]
+}

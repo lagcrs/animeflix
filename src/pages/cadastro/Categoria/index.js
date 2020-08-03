@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -35,7 +35,17 @@ export default function CadastroCategoria() {
         setValores(valoresIniciais)
     };
 
-    console.log('Categorias', categorias)
+    console.log('Categorias', categorias);
+
+    useEffect(()=> {
+        const URL_TOP = 'http://localhost:8080/categorias';
+        fetch(URL_TOP)
+            .then(async (responseServer) => {
+                const res = await responseServer.json();
+                setCategorias([...res]);
+            })
+
+    }, []);
     
     return (
         <PageDefault>
